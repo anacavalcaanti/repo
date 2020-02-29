@@ -1,0 +1,37 @@
+.radius {
+    border-radius: 20px;
+}
+
+.dFlex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80vw;
+}
+
+.dFlexR {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.dFlex div img{
+    width: 450px;
+    height: 450px;
+}
+
+.dFlex div {
+    margin: 10px;
+}
+
+@media (max-width: 868px) {
+    .dFlex {
+        flex-direction: column;
+    }
+
+
+    .dFlex div img{
+        width: 350px;
+        height: 350px;
+    }
+}
